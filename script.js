@@ -18,3 +18,10 @@ function makeGrid(size) {
 }
 
 makeGrid(16);
+
+const cells = document.querySelectorAll(".cell");
+cells.forEach((cell) => {
+    cell.addEventListener("mouseover", () => {
+        cell.style.background = "black";
+    })
+})
