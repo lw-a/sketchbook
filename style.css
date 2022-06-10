@@ -1,9 +1,54 @@
-#pad {
-width: 500px;
-height: 500px;
-
-display: flex;
-border-style: solid;
-
-
-}
+body {
+    display: flex;
+    background: #e3e3e3
+  }
+  
+  button {
+    margin: 3px;
+    width: 68px;
+  }
+  
+  #pad {
+  width: 500px;
+  height: 500px;
+  
+  display: flex;
+  border-style: solid;
+  }
+  
+  .colours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .side {
+     margin-right: 10px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0px;
+  }
+  
+  .sliderContainer {
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  #colourPicker {
+    width: 68px;
+  }
+  
+  .cell {
+    box-sizing: border-box;
+    background: white;
+    border: solid;
+    border-width: 0.1px;
+  }
