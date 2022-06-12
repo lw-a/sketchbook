@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 
-    <title>Sketchbook</title>
+  <title>Sketchbook</title>
 </head>
-<body>
-    <div class="side">
-      <h1>Sketchpad</h1>
-    <div class="sliderContainer">
-      Pad:
-        <input type="range" min="16" max="64" value="32" id="slider">
-        <span id="sliderValue">32 x 32</span>
-    </div>
-      <div class="colours">
-        Pen Colour:
-        <input type="color" value="#ff0000" id="colourPicker">
-        <button id="rainbowButton">Rainbow</button>
-        <button id="eraserButton">Eraser</button>
-        <button id="gridButton">Grid Off</button>
-      </div>
-  </div>
-    <div id="pad">
 
-    </div>    
+<body>
+  <div class="side">
+    <h1>Sketchpad</h1>
+    <div class="sliderContainer">
+      Pad Size:
+      <input type="range" min="2" max="64" value="32" id="slider">
+      <span id="sliderValue">32 x 32</span>
+    </div>
+    <div class="colours">
+      Pen Colour:
+      <input type="color" value="#ff0000" id="colourPicker">
+      <button id="rainbowButton">Rainbow</button>
+      <button id="eraserButton">Eraser</button>
+      <button id="gridButton">Grid Off</button>
+      <button id="clearButton">Clear</button>
+    </div>
+  </div>
+  <div id="pad">
+
+  </div>
 </body>
+
 </html>
